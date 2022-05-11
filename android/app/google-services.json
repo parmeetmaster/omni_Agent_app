@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "31459835532",
+    "project_id": "omni105us",
+    "storage_bucket": "omni105us.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31459835532:android:de038ed2765d54781d85a9",
+        "android_client_info": {
+          "package_name": "com.omninovas.omni105"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "31459835532-cqk461f9lj0qg6ip3f5jk4u4pp42vcdg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB57qRnk-Zj0y2jSOO7ya41nDUOckPgmGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "31459835532-cqk461f9lj0qg6ip3f5jk4u4pp42vcdg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

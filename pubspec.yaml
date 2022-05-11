@@ -1,0 +1,76 @@
+name: six_cash
+description: A new Flutter application.
+publish_to: 'none' #
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get: ^4.1.4
+  shared_preferences: ^2.0.6
+  connectivity: ^3.0.6
+  firebase_core: ^1.2.1
+  firebase_messaging: ^11.2.11
+  flutter_local_notifications: ^9.4.0
+  path_provider: ^2.0.2
+  url_strategy: ^0.2.0
+  dotted_border: ^2.0.0+1
+  flutter_contacts: ^1.1.3
+  azlistview: ^2.0.0
+  pin_code_fields: ^7.3.0
+  modal_bottom_sheet: ^2.0.0
+  slide_to_confirm: ^1.1.0
+  lottie: ^1.2.1
+  expandable_bottom_sheet: ^1.1.1+1
+  smooth_page_indicator: ^1.0.0+2
+  image_picker: ^0.8.4+4
+  country_code_picker: ^2.0.2
+  camera: ^0.9.4+5
+  http: ^0.13.4
+  flutter_barcode_scanner: ^2.0.0
+  carousel_slider: ^4.0.0
+  webview_flutter: ^3.0.0
+  flutter_svg: ^1.0.0
+  device_preview: ^1.0.0
+  flutter_html: ^3.0.0-alpha.1
+  shimmer: ^2.0.0-nullsafety.0
+  permission_handler: ^9.2.0
+  share_plus: ^4.0.3
+  screenshot: ^1.2.3
+  url_launcher: ^6.0.17
+  gallery_saver: ^2.3.2
+  modal_progress_hud_nsn: ^0.1.0-nullsafety-1
+  phone_number: ^0.12.0+1
+  path_drawing: ^1.0.0
+  currency_text_input_formatter: ^2.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/image/
+    - assets/language/
+    - assets/animationFile/
+
+  fonts:
+    - family: Rubik
+      fonts:
+        - asset: assets/font/Rubik-Light.ttf
+          weight: 300
+        - asset: assets/font/Rubik-Regular.ttf
+          weight: 400
+        - asset: assets/font/Rubik-Medium.ttf
+          weight: 500
+        - asset: assets/font/Rubik-SemiBold.ttf
+          weight: 600
