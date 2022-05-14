@@ -3,8 +3,8 @@ import 'package:six_cash/data/model/response/language_model.dart';
 import 'images.dart';
 
 class AppConstants {
-  static const String APP_NAME = 'OMNI105+';
-  static const String BASE_URL = 'http://omni105.omninovas.com';
+  static const String APP_NAME = 'OMNI Kredi Ajan';
+  static const String BASE_URL = 'https://ok.omninovas.com';
   static const bool DEMO = false;
 
   static const String WEB_SITE_LINK_IMAGE_URI = '$BASE_URL/storage/app/public/website/';
@@ -91,6 +91,8 @@ class AppConstants {
 
   static List<LanguageModel> languages = [
     LanguageModel(imageUrl: Images.english, languageName: 'English', countryCode: 'US', languageCode: 'en'),
-    LanguageModel(imageUrl: Images.saudi, languageName: 'Arabic', countryCode: 'SA', languageCode: 'ar'),
+    LanguageModel(imageUrl: Images.saudi, languageName: 'Ayisyen', countryCode: 'SA', languageCode: 'ar'),
+    LanguageModel(imageUrl: Images.spanish, languageName: 'Spanish', countryCode: 'ES', languageCode: 'sp'),
+    LanguageModel(imageUrl: Images.french, languageName: 'French', countryCode: 'FR', languageCode: 'fr'),
   ];
 }

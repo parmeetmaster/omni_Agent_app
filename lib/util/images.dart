@@ -1,5 +1,7 @@
 class Images {
   static const String saudi = 'assets/image/arabic.png';
+  static const String spanish = 'assets/image/spanish.png';
+  static const String french = 'assets/image/french.png';
   static const String english = 'assets/image/english.png';
 
   //

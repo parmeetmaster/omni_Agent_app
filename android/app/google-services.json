@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "31459835532",
-    "project_id": "omni105us",
-    "storage_bucket": "omni105us.appspot.com"
+    "project_number": "984531080944",
+    "project_id": "ok-us-app",
+    "storage_bucket": "ok-us-app.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:31459835532:android:de038ed2765d54781d85a9",
+        "mobilesdk_app_id": "1:984531080944:android:b4b9b2de35d798b13c5435",
         "android_client_info": {
-          "package_name": "com.omninovas.omni105"
+          "package_name": "com.omninovas.ok"
         }
       },
       "oauth_client": [
         {
-          "client_id": "31459835532-cqk461f9lj0qg6ip3f5jk4u4pp42vcdg.apps.googleusercontent.com",
+          "client_id": "984531080944-er3ogfnplhphgi46vs5pg1clsl75qhkh.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB57qRnk-Zj0y2jSOO7ya41nDUOckPgmGU"
+          "current_key": "AIzaSyA5KjKxKPvomcaxidse7BpD3vR6ePq1I74"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "31459835532-cqk461f9lj0qg6ip3f5jk4u4pp42vcdg.apps.googleusercontent.com",
+              "client_id": "984531080944-er3ogfnplhphgi46vs5pg1clsl75qhkh.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

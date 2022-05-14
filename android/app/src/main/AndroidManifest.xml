@@ -35,10 +35,10 @@
     </queries>
 
     <application
-        android:label="OMNI105+"
+        android:label="OMNI Kredi Ajan"
         android:requestLegacyExternalStorage="true"
         android:usesCleartextTraffic="true"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/launcher_icon">
 
         <activity
             android:name=".MainActivity"

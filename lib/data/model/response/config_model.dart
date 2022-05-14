@@ -53,7 +53,7 @@ class ConfigModel {
     companyName: json["company_name"],
     companyLogo: json["company_logo"],
     companyAddress: json["company_address"],
-    companyPhone: json["company_phone"],
+    companyPhone: json["company_phone"].toString(),
     companyEmail: json["company_email"],
     baseUrls: BaseUrls.fromJson(json["base_urls"]),
     currencySymbol: json["currency_symbol"] ?? '\$',
