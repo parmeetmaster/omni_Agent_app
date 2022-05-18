@@ -4,7 +4,8 @@ import 'images.dart';
 
 class AppConstants {
   static const String APP_NAME = 'OMNI Kredi Ajan';
-  static const String BASE_URL = 'https://ok.omninovas.com';
+  static const String BASE_URL = 'http://credits.omninovas.com';
+ // static const String BASE_URL = 'https://ok.omninovas.com';
   static const bool DEMO = false;
 
   static const String WEB_SITE_LINK_IMAGE_URI = '$BASE_URL/storage/app/public/website/';

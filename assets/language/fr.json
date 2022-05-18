@@ -93,7 +93,7 @@
   "4_Digit_PIN": "NIP ou PIN à 4 chiffres", 
   "Forget password?" : "Mot de passe oublié ?", 
   "Account": "Compte" , 
-  "Hello": "Salut," 
+  "Hello": "Salut," ,
   "hi": "Salut",
   "amount": "Quantité - ", 
   "note": "Remarque - ",  
@@ -153,7 +153,7 @@
   "success": "Succès", 
   "create_account":"Créer un compte", 
   "please_enter_your_valid_pin":"Veuillez saisir votre code PIN valide", 
-  "enter_your_pin":"Entrez votre code PIN", "Entrez votre code PIN", 
+  "enter_your_pin":"Entrez votre code PIN",
   "pin_should_be_4_digit":"Le mot de passe doit comporter 4 chiffres",
   "start_exploring_the_amazing_ways_to_take_your_lifestyle_upward":"Commencez à explorer les moyens étonnants d'améliorer votre style de vie...", 
   "reset_successful":"Réinitialisation réussie", 

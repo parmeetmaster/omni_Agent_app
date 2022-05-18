@@ -87,7 +87,7 @@
   "first_name_or_last_name_must_not_be_null": "Prenon Oswa siyati an pa dwe nil", 
   "set_your_4_digit_PIN_for_future_login": "Mete PIN 4 chif ou pou w ka konekte alavni", 
   "set_your_PIN": "Mete PIN Ou", 
-  "confirm_PIN", "Konfime PIN", 
+  "confirm_PIN":"Konfime PIN",
   "place_your_face_inside_the_frame_camera_will_auto_capture_your_face_upon_eye_blinking": "Mete figi ou anndan ankadreman an epi peze bouton an pou pran imaj la.", 
   "4_Digit_PIN": "4 chif PIN oswa NIP ou", 
   "Forget password?": "Ou bliye modpas la?", 
