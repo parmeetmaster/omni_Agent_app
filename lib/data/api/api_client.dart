@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 import 'dart:typed_data';
+
 import 'package:http_parser/http_parser.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -51,6 +52,7 @@ class ApiClient extends GetxService {
     try {
       if(Foundation.kDebugMode) {
         print('====> API Call: $uri\nToken: $token');
+        print('====> GetX HEADERS: $_mainHeaders');
       }
       Http.Response _response = await Http.get(
         Uri.parse(appBaseUrl+uri),
@@ -75,6 +77,7 @@ class ApiClient extends GetxService {
         print('====> GetX Base URL: $appBaseUrl');
         print('====> GetX Call: $uri');
         print('====> GetX Body: $body');
+        print('====> GetX HEADERS: $_mainHeaders');
       }
       Http.Response _response = await Http.post(
         Uri.parse(appBaseUrl+uri),
@@ -97,6 +100,7 @@ class ApiClient extends GetxService {
        if(Foundation.kDebugMode) {
          print('====> API Call: $uri\nToken: $token');
          print('====> API Body: $body with ${multipartBody.length} image ');
+         print('====> GetX HEADERS: $_mainHeaders');
        }
        Http.MultipartRequest _request = Http.MultipartRequest('POST', Uri.parse(appBaseUrl+uri));
        _request.headers.addAll(headers ?? _mainHeaders);

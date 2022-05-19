@@ -17,7 +17,7 @@ class PreviewContactTile extends StatelessWidget {
     if(phoneNumber.contains('-')){
       phoneNumber.replaceAll('-', '');
     }else if(!phoneNumber.contains(Get.find<AuthController>().getCustomerCountryCode())){
-      phoneNumber = Get.find<AuthController>().getCustomerCountryCode()+phoneNumber.substring(1).trim();
+      phoneNumber = "+"+phoneNumber.substring(1).trim();
     }
     return ListTile(
         title:  Text(contactModel.name==null?phoneNumber: contactModel.name, style: rubikRegular.copyWith(fontSize: Dimensions.FONT_SIZE_LARGE)),

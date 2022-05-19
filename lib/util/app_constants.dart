@@ -91,10 +91,10 @@ class AppConstants {
   static const List<String> inputAmountList =  [ '500', '1,000', '2,000', '5,000', '10,000', '57,0059'];
 
   static List<LanguageModel> languages = [
+    LanguageModel(imageUrl: Images.hati, languageName: 'Ayisyen', countryCode: 'ht', languageCode: 'ht'),
     LanguageModel(imageUrl: Images.english, languageName: 'English', countryCode: 'US', languageCode: 'en'),
-    LanguageModel(imageUrl: Images.saudi, languageName: 'Ayisyen', countryCode: 'SA', languageCode: 'ar'),
     LanguageModel(imageUrl: Images.spanish, languageName: 'Spanish', countryCode: 'ES', languageCode: 'es'),
     LanguageModel(imageUrl: Images.french, languageName: 'French', countryCode: 'FR', languageCode: 'fr'),
-    LanguageModel(imageUrl: Images.hati, languageName: 'Hatian', countryCode: 'ht', languageCode: 'ht'),
+
   ];
 }
