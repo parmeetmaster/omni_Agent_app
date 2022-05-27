@@ -15,7 +15,7 @@ class CustomCountryCodePiker extends StatelessWidget {
       showDropDownButton: true,
       padding: EdgeInsets.zero,
       initialSelection: initSelect ?? Get.find<SplashController>().configModel.country,
-      favorite: ['+971','+880'],
+      favorite: ['+509','+1'],
       showCountryOnly: false,
       showOnlyCountryWhenClosed: false,
       alignLeft: false,

@@ -4,8 +4,8 @@ import 'images.dart';
 
 class AppConstants {
   static const String APP_NAME = 'OMNI Kredi Ajan';
-  //static const String BASE_URL = 'http://credits.omninovas.com';
-  static const String BASE_URL = 'https://ok.omninovas.com';
+  static const String BASE_URL = 'http://credits.omninovas.com';
+  //static const String BASE_URL = 'https://ok.omninovas.com';
   static const bool DEMO = false;
 
   static const String WEB_SITE_LINK_IMAGE_URI = '$BASE_URL/storage/app/public/website/';
@@ -91,7 +91,7 @@ class AppConstants {
   static const List<String> inputAmountList =  [ '500', '1,000', '2,000', '5,000', '10,000', '57,0059'];
 
   static List<LanguageModel> languages = [
-    LanguageModel(imageUrl: Images.hati, languageName: 'Ayisyen', countryCode: 'ht', languageCode: 'ht'),
+    LanguageModel(imageUrl: Images.hati, languageName: 'Ayisyen/Haitian', countryCode: 'ht', languageCode: 'ht'),
     LanguageModel(imageUrl: Images.english, languageName: 'English', countryCode: 'US', languageCode: 'en'),
     LanguageModel(imageUrl: Images.spanish, languageName: 'Spanish', countryCode: 'ES', languageCode: 'es'),
     LanguageModel(imageUrl: Images.french, languageName: 'French', countryCode: 'FR', languageCode: 'fr'),

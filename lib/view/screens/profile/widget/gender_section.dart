@@ -51,7 +51,7 @@ class GenderSection extends StatelessWidget {
               children: [
                 CustomGenderCard(
                   icon: Images.male,
-                  text: 'Male',
+                  text: 'male'.tr,
                   color: controller.gender.toLowerCase() == 'male' ? ColorResources.getSecondaryHeaderColor():ColorResources.genderDefaultColor.withOpacity(0.5),
                   onTap: (){
                     controller.setGender('Male');
@@ -60,7 +60,7 @@ class GenderSection extends StatelessWidget {
                 //const SizedBox(width: Dimensions.PADDING_SIZE_SMALL,),
                 CustomGenderCard(
                   icon: Images.female,
-                  text: 'Female',
+                  text: 'female'.tr,
                   color: controller.gender.toLowerCase() == 'female' ? ColorResources.getSecondaryHeaderColor():ColorResources.genderDefaultColor.withOpacity(0.5),
                   onTap: (){
                     controller.setGender('Female');
@@ -69,7 +69,7 @@ class GenderSection extends StatelessWidget {
                 //const SizedBox(width: Dimensions.PADDING_SIZE_SMALL,),
                 CustomGenderCard(
                   icon: Images.other,
-                  text: 'Other',
+                  text: 'other'.tr,
                   color: controller.gender.toLowerCase() == 'other' ? ColorResources.getSecondaryHeaderColor():ColorResources.genderDefaultColor.withOpacity(0.5),
                   onTap: (){
                     controller.setGender('Other');

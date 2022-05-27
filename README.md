@@ -94,4 +94,8 @@ If you have run out of energy or time for your project, put a note at the top of
 TODO
 - lIVE SUPPORT Translation need to add
 - CHAT SUPPORT TRASLATION NEED TO ADD
-- 
+
+
+# Ifill tower image need to find again and replace here french
+# Change phone number of selection of login
+# fix country code after log out fix required
